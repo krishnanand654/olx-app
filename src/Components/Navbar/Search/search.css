@@ -1,0 +1,60 @@
+.srch-btn {
+  background-color: #002f34;
+  border: none;
+  color: white;
+  font-size: 24px;
+  min-width: 48px;
+  height: 48px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+  top: 2.5px;
+  left: -5px;
+}
+
+.srch-in {
+  border: 2px solid #002f34;
+  height: 48px;
+  width: 600px;
+  border-radius: 3px;
+}
+
+.srch-place {
+  border: 2px solid #002f34;
+  height: 48px;
+  width: 250px;
+  border-radius: 3px;
+}
+.selectParent {
+  width: 100px;
+  overflow: hidden;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0 0 0 50px;
+}
+
+.srch-btn-frnt {
+  border: none;
+  background: none;
+  position: relative;
+  left: 35px;
+}
+
+::-webkit-input-placeholder {
+  padding-left: 10px;
+}
+
+.srch-in:focus {
+  outline: 1px solid #5aece4;
+  border: 1px solid #5aece4;
+}
+
+.icon-place {
+  position: relative;
+  left: -45px;
+  top: -1px;
+}

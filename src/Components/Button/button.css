@@ -1,0 +1,63 @@
+.sell-btn {
+  width: auto;
+  height: 45px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background: none;
+  border-radius: 40px;
+}
+
+.lang-ctn {
+  color: #002f34;
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.login {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 2px solid #002f34;
+  color: #002f34;
+}
+
+.login:hover {
+  border: none;
+}
+
+.icon-arrow {
+  margin: 0 5px 0;
+}
+
+#drop:hover + .icon-arrow {
+  transform: rotate(180deg);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.drop-ctn {
+  visibility: hidden;
+  margin: 25px 0 0;
+  position: absolute;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px 40px 10px 20px;
+  list-style: none;
+  z-index: 1000;
+}
+
+.drop-ctn li {
+  margin: 20px 0 20px;
+}
+
+#lang-view:hover ~ .drop-ctn {
+  visibility: visible;
+}
+
+.lang-flex {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}

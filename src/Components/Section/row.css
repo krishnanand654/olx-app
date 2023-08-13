@@ -1,0 +1,16 @@
+.row-ctn {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 200px 50px;
+  flex-wrap: wrap;
+}
+
+.row-ctn .card {
+  margin: 0 0 20px;
+}
+
+.head {
+  margin: 30px 220px 30px;
+  font-size: 24px;
+  font-weight: 400;
+}
